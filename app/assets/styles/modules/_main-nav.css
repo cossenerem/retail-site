@@ -7,14 +7,24 @@
     font-family: 'Montserrat', sans-serif;
 
     &__logo {
+        font-size: 1.3rem;
+    }
+
+    &__logo-link {
+        text-decoration: none;
         color: $blue;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__logo-link:hover {
+        color: $darkBlue;
     }
 
     &__menu {
         margin: 0;
         padding: 0;
         display: flex;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 800;
     }
 

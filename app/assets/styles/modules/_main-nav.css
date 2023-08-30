@@ -1,0 +1,38 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 0;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+    &__logo {
+        color: $blue;
+    }
+
+    &__menu {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    &__menu-item {
+        list-style: none;
+        margin-left: 50px;
+    }
+
+    &__menu-item-link {
+        text-decoration: none;
+        color: $darkBlue;
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__menu-item-link:hover {
+        color: $blue;
+        transform: scale(1.5);
+    }
+
+}
